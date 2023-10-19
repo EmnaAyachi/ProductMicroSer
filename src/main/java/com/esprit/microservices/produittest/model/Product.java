@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.springframework.web.multipart.MultipartFile;
 
 import javax.persistence.*;
 
@@ -22,5 +23,14 @@ public class Product {
     private int price;
     private int reference ;
     private int quantity;
+  //  private String imageLocation;  // Champ pour stocker l'emplacement de l'image
+
+    // Getters et setters pour imageLocation
+    //public String getImageLocation() {
+       // return imageLocation;
+   // }
+   // public void setImageLocation(String imageLocation) {
+      //  this.imageLocation = imageLocation;
+    //}
 
 }
